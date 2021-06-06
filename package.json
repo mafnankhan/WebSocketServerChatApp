@@ -1,0 +1,16 @@
+{
+  "name": "back-end-socketio",
+  "description": "a realtime chat web application",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "restart": "nodemon server.js --max-old-space-size=2048"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
